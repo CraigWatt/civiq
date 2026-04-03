@@ -1,0 +1,8 @@
+{
+  "app": "tsx bin/civiq.ts",
+  "context": {
+    "appName": "civiq",
+    "defaultRegion": "eu-west-2"
+  }
+}
+

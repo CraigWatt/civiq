@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "composite": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "bin/**/*.ts",
+    "envs/**/*.ts",
+    "lib/**/*.ts"
+  ]
+}
+

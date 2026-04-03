@@ -2,6 +2,7 @@
   "name": "civiq",
   "private": true,
   "workspaces": [
+    "infra",
     "services/*",
     "platform/*"
   ],
