@@ -1,0 +1,22 @@
+{
+  "name": "@civiq/infra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx bin/civiq.ts",
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "deploy": "cdk deploy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.177.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "aws-cdk": "^2.177.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
+
