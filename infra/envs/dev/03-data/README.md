@@ -2,6 +2,5 @@
 
 Data-layer infrastructure for `civiq`.
 
-This folder will eventually hold Postgres, queues, object storage, and any
-supporting persistence resources.
-
+This folder now owns the development Postgres stack and will later expand to
+queues, object storage, and supporting persistence resources.
