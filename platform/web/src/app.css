@@ -96,14 +96,23 @@ h1 {
   font-size: 0.92rem;
 }
 
+.auth-card,
+.status-card,
+.profile {
+  margin-top: 28px;
+  display: grid;
+  gap: 14px;
+}
+
 .signup {
   display: flex;
   gap: 12px;
-  margin-top: 32px;
   flex-wrap: wrap;
 }
 
-.signup input {
+.signup input,
+.profile input,
+.profile select {
   min-width: min(100%, 320px);
   flex: 1;
   padding: 16px 18px;
@@ -113,19 +122,114 @@ h1 {
   color: #fff;
 }
 
-.signup button {
+.signup button,
+.primary,
+.secondary {
   padding: 16px 22px;
   border: 0;
   border-radius: 16px;
-  background: linear-gradient(135deg, #7dd3fc, #38bdf8);
-  color: #082032;
   font-weight: 700;
   cursor: pointer;
+}
+
+.signup button,
+.primary {
+  background: linear-gradient(135deg, #7dd3fc, #38bdf8);
+  color: #082032;
+}
+
+.secondary {
+  background: rgba(15, 23, 42, 0.7);
+  color: #e2e8f0;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  justify-self: start;
+}
+
+.status-card {
+  margin-top: 32px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(15, 23, 42, 0.58);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.status-label {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.status-value {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
 .hint {
   margin: 14px 0 0;
   color: #94a3b8;
+}
+
+.magic-link {
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(125, 211, 252, 0.18);
+  background: rgba(14, 165, 233, 0.08);
+  display: grid;
+  gap: 8px;
+}
+
+.magic-link p {
+  margin: 0;
+}
+
+.magic-link a {
+  color: #7dd3fc;
+  word-break: break-word;
+}
+
+.panel-copy {
+  margin: 0;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(148, 163, 184, 0.12);
+  margin: 24px 0;
+}
+
+.profile label {
+  display: grid;
+  gap: 8px;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.profile select {
+  appearance: none;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle input {
+  min-width: auto;
+  flex: 0 0 auto;
+}
+
+.error {
+  margin: 0;
+  color: #fca5a5;
+}
+
+.success {
+  margin: 0;
+  color: #86efac;
 }
 
 .panel {
