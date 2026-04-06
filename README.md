@@ -1,9 +1,10 @@
 # civiq
 
-Monorepo for the `civiq` iOS and Android app plus its backend.
+Monorepo for the `civiq` web app plus its backend and infra.
 
 ## Structure
 
+- `platform/web` - SvelteKit web app
 - `services/api` - Node.js + TypeScript backend
 - `platform/contracts` - Shared types and utilities
 - `infra` - AWS CDK infrastructure and deployment notes

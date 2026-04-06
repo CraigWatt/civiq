@@ -1,0 +1,12 @@
+{
+  "extends": "./.svelte-kit/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@civiq/contracts": [
+        "../contracts/src/index.ts"
+      ]
+    }
+  }
+}
+
