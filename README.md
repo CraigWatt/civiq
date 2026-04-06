@@ -4,7 +4,6 @@ Monorepo for the `civiq` iOS and Android app plus its backend.
 
 ## Structure
 
-- `platform/mobile` - Expo + React Native app
 - `services/api` - Node.js + TypeScript backend
 - `platform/contracts` - Shared types and utilities
 - `infra` - AWS CDK infrastructure and deployment notes
