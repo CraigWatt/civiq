@@ -16,3 +16,7 @@ Monorepo for the `civiq` web app plus its backend and infra.
 - Notify users when a matching trade appears
 - Let users choose an amount of free cash to allocate
 - Keep the user in control of execution
+
+## Current test path
+
+- GitHub Pages is the quick web-test target for the SvelteKit app.
