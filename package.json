@@ -1,6 +1,7 @@
 {
   "name": "civiq",
   "private": true,
+  "packageManager": "pnpm@10.0.0",
   "workspaces": [
     "infra",
     "services/*",
